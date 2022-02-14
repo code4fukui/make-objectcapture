@@ -4,7 +4,7 @@ import RealityKit
 
 let arguments = ProcessInfo.processInfo.arguments
 if arguments.count != 4 {
-    print("photogrammetry [detail(preview|reduced|medium|full|raw)] [img input dir] [usdz output fn]")
+    print("make-objectcapture [detail(preview|reduced|medium|full|raw)] [img input dir] [usdz output fn]")
     Foundation.exit(1)
 }
 /*
